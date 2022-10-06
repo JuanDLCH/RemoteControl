@@ -43,5 +43,9 @@ def on_closing():
         s.kill()
     root.destroy()
 
+def hola():
+    print("Hola")
+
+
 root.protocol("WM_DELETE_WINDOW", on_closing)
 root.mainloop()
